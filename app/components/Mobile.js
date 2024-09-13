@@ -32,7 +32,7 @@ function mobileComponent(items) {
         <div class="row">
           <div class="col">
             <div class="p">
-              <img src="${img}" alt="Screenshoot of ${img}" class="p__img">
+              <img src="${img}" alt="Screenshoot of ${name} portfgolio" class="p__img">
             </div>
           </div>
           <div class="col">

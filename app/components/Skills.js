@@ -118,7 +118,7 @@ export function Skills() {
               <strong>🇺🇸 English (B1):</strong>
               <span>
                 <a href="https://www.duolingo.com/profile/Chris-Manzi" target="_blank" rel="noopener noreferrer">
-                  <img src="/app/assets/icon.svg">
+                  <img src="/app/assets/icon.svg" alt="Link to my Duolingo Profile">
                 </a>
                 <p>
                   Every day I strive to improve my English skills. I read documentation and follow tutorials to familiarize myself with the language. I am a big fan of Duolingo, where I have achieved a score that reflects my progress.
