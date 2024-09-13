@@ -34,7 +34,7 @@ export function Portfolio() {
         <div class="card__top">
         <div class="card__browser"></div>
           <figure class="card__imgCnt">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/9ugU1r96EXU?si=2qeSeyXTilVBbMPZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/9ugU1r96EXU?si=2qeSeyXTilVBbMPZ" title="Choose one of the pills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </figure>
           </div>
           <div class="card__box">
