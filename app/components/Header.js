@@ -10,7 +10,7 @@ export function Header() {
         <div class="logo">
           <a href="#intro">
             <img src="app/assets/favicon.png" alt="Menu del header">
-            <h2>iManzi</h2>
+            <p>iManzi</p>
           </a>
         </div>
         <nav id="nav">
