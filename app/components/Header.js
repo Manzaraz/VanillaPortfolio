@@ -9,6 +9,7 @@ export function Header() {
       <header>
         <div class="logo">
           <a href="#intro">
+            <title>Home Section</title>
             <img src="app/assets/favicon.png" alt="Menu del header">
             <p>iManzi</p>
           </a>

@@ -6,6 +6,7 @@ export function Footer() {
 
   $footer.innerHTML = `
     <a href="#intro" class="up" data-aos="flip-up">
+      <title>Go Home</title>
       <i class="fa-solid fa-angles-up"></i>
     </a>
     <div class="s-media">
