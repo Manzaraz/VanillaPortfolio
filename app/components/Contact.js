@@ -65,6 +65,7 @@ export function Contact() {
                   <a href="mailto:magnusmanz@gmail.com?subject=Vi%20tu%20Portfolio%20y..." data-aos="flip-up">
                     <title>Send an email</title>
                     <i class="fa-solid fa-envelope"></i>
+                    <title>LinkedIn</title>
                     Envíame un E-mail
                     <span class="overlay"></span>
                   </a>

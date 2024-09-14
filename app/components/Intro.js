@@ -28,8 +28,8 @@ export function Intro() {
           <i class="fa-brands fa-x-twitter"></i>
         </a>
         <a href="mailto:magnusmanz@gmail.com?subject=Vi%20tu%20Portfolio%20y...">
-          <title>Email</title>
           <i class="fa-regular fa-envelope"></i>
+          <title>Email</title>
         </a>
         <a href="https://wa.me/5493815091639" target="_blank" rel="noopener noreferrer">
           <title>WhatsApp</title>

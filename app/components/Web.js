@@ -39,12 +39,14 @@ function showProjects(items) {
           <div class="btn-conteiner">
             <a href="${link}" target="_blank" rel="noreferrer">
               <title>Watch Demo Deploy</title>
+              <title>Go to ${name}'s Deploy</title>
               <i class="fa-brands fa-safari"></i>
               Ver Demo
               <span class="overlay"></span>
             </a>
             <a href="${repo}" target="_blank" rel="noreferrer">
               <title>${name} GitHub Repository</title>
+              <title>Go to ${name}'s repository</title>
               <i class="fa-brands fa-github"></i>
               Repositorio
               <span class="overlay"></span>
