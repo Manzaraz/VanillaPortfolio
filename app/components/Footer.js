@@ -25,6 +25,7 @@ export function Footer() {
           <i class="fa-brands fa-whatsapp"></i>
         </a>
     </div>
+    <div class="copyright">© <span id="year">2024</span> Christian Manzaraz - All rights reserved.</div>
   `
 
   return $footer
