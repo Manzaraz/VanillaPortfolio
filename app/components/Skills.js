@@ -118,6 +118,7 @@ export function Skills() {
               <strong>🇺🇸 English (B1):</strong>
               <span>
                 <a href="https://www.duolingo.com/profile/Chris-Manzi" target="_blank" rel="noopener noreferrer">
+                  <title>Duolingo Profile</title>
                   <img src="/app/assets/icon.svg" alt="Link to my Duolingo Profile">
                 </a>
                 <p>

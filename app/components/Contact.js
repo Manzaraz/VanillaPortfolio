@@ -47,6 +47,7 @@ export function Contact() {
               </li>
               <li>
                   <a href="https://www.linkedin.com/in/manzaraz" target="_blank" rel="noopener noreferrer" data-aos="flip-up">
+                    <title>LinkedIn</title>
                     <i class="fa-brands fa-linkedin"></i>
                     Perfil de Linkedin
                     <span class="overlay"></span>
@@ -54,6 +55,7 @@ export function Contact() {
               </li>
               <li>
                   <a href="https://api.whatsapp.com/send?phone=+5493815091639&text=¡%F0%9F%91%8B%F0%9F%8F%BC%20Hola%20Christian!,%20vi%20tu%20portfolio%20y%20me%20decidí%20a%20enviarte%20este%20mensaje" target="_blank" rel="noopener noreferrer" data-aos="flip-up">
+                    <title>Whatsapp</title>
                     <i class="fa-brands fa-whatsapp"></i>
                     Envíame un WhatsApp
                     <span class="overlay"></span>
@@ -61,6 +63,7 @@ export function Contact() {
               </li>
               <li>
                   <a href="mailto:magnusmanz@gmail.com?subject=Vi%20tu%20Portfolio%20y..." data-aos="flip-up">
+                    <title>Send an email</title>
                     <i class="fa-solid fa-envelope"></i>
                     Envíame un E-mail
                     <span class="overlay"></span>

@@ -38,6 +38,7 @@ function mobileComponent(items) {
           <div class="col">
             ${(!technologies || technologies.length < 1) ? "" : technologiesComponent(technologies)}
             <a href="${repo}" target="_blank" rel="noreferrer">
+              <title>${name} GitHub Repository</title>
               <i class="fa-brands fa-github"></i>
               Repositorio
               <span class="overlay"></span>
