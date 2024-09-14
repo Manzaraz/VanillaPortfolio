@@ -3,11 +3,12 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iManzi</title>
   <!-- Meta Tags on Facebook -->
   <meta property="og:url" content="https://manzaraz.com.ar" />
   <meta property="og:type" content="website" />
-  <meta content="About - Christian Manzaraz - iOS Developer - Fronted Developer" property="og:title">
 
+  <meta content="About - Christian Manzaraz - iOS Developer - Fronted Developer" property="og:title">
   <meta property="og:description"
     content="Desarrollador iOS | Desarrollador Frontend | Desarrollador FullStack Vanilla-React-Node | Profesor de Frontend en Digital House" />
   <meta
@@ -26,7 +27,6 @@
     content="Developer, iOS, Swift, UIKit, SwiftUI, CoreData, SwiftDAta, HTML, CSS, JavaScript, React, Profesor, OpenToWork, LinkedIn">
   <meta property="article:published_time" content="2024-09-13" />
 
-  <title>iManzi</title>
 
   <link rel="stylesheet" href="app/assets/styles.css">
   <link rel="shortcut icon" href="app/assets/favicon.png" type="image/x-icon">
@@ -38,14 +38,15 @@
 
   <!-- AOS Library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 </head>
 
 <body>
   <!-- Header Menu -->
   <div id="root"></div>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script type="module" src="/app/index.js"></script>
 
 </body>

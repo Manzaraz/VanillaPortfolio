@@ -32,10 +32,6 @@ body {
   scroll-behavior: smooth;
 }
 
-title {
-  display: none;
-}
-
 /* Menu */
 .header-container {
   background: var(--color-black);
