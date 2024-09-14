@@ -38,11 +38,13 @@ function showProjects(items) {
           ${(!technologies || technologies.length < 1) ? "" : technologiesComponent(technologies)}
           <div class="btn-conteiner">
             <a href="${link}" target="_blank" rel="noreferrer">
+              <title>Go to ${name}'s Deploy</title>
               <i class="fa-brands fa-safari"></i>
               Ver Demo
               <span class="overlay"></span>
             </a>
             <a href="${repo}" target="_blank" rel="noreferrer">
+              <title>Go to ${name}'s repository</title>
               <i class="fa-brands fa-github"></i>
               Repositorio
               <span class="overlay"></span>
