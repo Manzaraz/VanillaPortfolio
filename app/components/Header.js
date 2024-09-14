@@ -8,11 +8,10 @@ export function Header() {
     <div class="header-container">
       <header>
         <div class="logo">
-          <a href="#intro">
+          <a href="#home">
             <title>Home Section</title>
-            <title>Home Logo</title>
             <img src="app/assets/favicon.png" alt="Menu del header">
-            <p>iManzi</p>
+            <p><title>iOS Developer</title>iManzi</p>
           </a>
         </div>
         <nav id="nav">
