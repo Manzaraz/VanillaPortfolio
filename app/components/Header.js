@@ -8,10 +8,10 @@ export function Header() {
     <div class="header-container">
       <header>
         <div class="logo">
-          <a href="#intro">
-            <title>Home Logo</title>
+          <a href="#home">
+            <title>Home Section</title>
             <img src="app/assets/favicon.png" alt="Menu del header">
-            <p>iManzi</p>
+            <p><title>iOS Developer</title>iManzi</p>
           </a>
         </div>
         <nav id="nav">
@@ -21,7 +21,7 @@ export function Header() {
             <li><a href="#skills"><title>Skills</title>Skills</a></li>
             <li><a href="#resume"><title>Curriculum Vitae</title>Currículum</a></li>
             <li><a href="#portfolio"><title>Portfolio</title>Portfolio</a></li>
-            <li><a href="#contact"><title>Contacto</title>Contacto</a></li>
+            <li><a href="#contact"><title><Contact/title>Contact</a></li>
           </ul>
         </nav>
         <div class="nav-responsive" >

@@ -6,6 +6,7 @@
   <!-- Meta Tags-->
   <meta property="og:url" content="https://manzaraz.com.ar" />
   <meta property="og:type" content="website" />
+
   <meta name="title" content="Christian Manzaraz | iOS - Web Developer | Frontend Professor">
   <meta name="description"
     content="Are you looking for an iOS or Web developer? Stop looking. I am here and I will fight to become your best choice. Visit this site and contact me.">
@@ -37,14 +38,15 @@
 
   <!-- AOS Library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 </head>
 
 <body>
   <!-- Header Menu -->
   <div id="root"></div>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script type="module" src="/app/index.js"></script>
 
 </body>

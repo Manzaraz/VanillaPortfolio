@@ -36,6 +36,7 @@ function displayJobs(items) {
           </div>
 
           <a class="btn" id="btn-open-modal">
+            <title>Ver Comentarios</title>
             <title>Open Modal</title>
             <i class="fa-solid fa-comment-dots"></i>
             Ver Comentarios        
@@ -50,6 +51,7 @@ function displayJobs(items) {
             <p>"${item.comment.review}"</p>
             <div class="btn-conteiner">
               <a class="btn" id="link" href="https://www.linkedin.com/in/manzaraz/" target="_blank" rel="noopener noreferrer">
+                <title>LinkedIn</title>
                 <title>Manzaraz's LinkedIn Profile</title>
                 Ver en LinkedIn
                 <span class="overlay"></span>
