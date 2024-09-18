@@ -197,6 +197,60 @@ body {
   }
 }
 
+& .btn-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 15px;
+
+  & .link {
+    background-color: var(--color-black3);
+    text-decoration: none;
+
+    i {
+      font-size: px;
+    }
+  }
+
+  & #btn-close-modal {
+    background-color: var(--color-red);
+  }
+
+  & .btn {
+    cursor: pointer;
+    border: 2px solid var(--font-color);
+    width: fit-content;
+    display: block;
+    margin: 15px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: var(--font-color);
+    position: relative;
+    z-index: 10;
+
+
+    & .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background: var(--color-gold);
+      z-index: -1;
+      transition: .75s;
+    }
+
+    &:hover {
+      color: var(--color-black2);
+
+      .overlay {
+        width: 100%;
+      }
+    }
+  }
+}
+
 /* About Section */
 .about {
   background: var(--color-black);
@@ -573,61 +627,6 @@ body {
         p {
           font-size: 17.5px;
           font-style: italic;
-        }
-
-        & .btn-conteiner {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 10px 0;
-          margin-bottom: 15px;
-
-          & #link {
-            background-color: var(--color-black3);
-            text-decoration: none;
-
-            i {
-              font-size: px;
-            }
-          }
-
-          & #btn-close-modal {
-            background-color: var(--color-red);
-          }
-
-          & .btn {
-            cursor: pointer;
-            border: 2px solid var(--font-color);
-            width: fit-content;
-            display: block;
-            margin: 15px auto;
-            padding: 10px 22px;
-            font-size: 16px;
-            color: var(--font-color);
-            position: relative;
-            z-index: 10;
-
-
-            & .overlay {
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 0;
-              height: 100%;
-              background: var(--color-gold);
-              z-index: -1;
-              transition: .75s;
-            }
-
-            &:hover {
-              color: var(--color-black2);
-
-              .overlay {
-                width: 100%;
-              }
-            }
-          }
-
         }
 
         &::backdrop {

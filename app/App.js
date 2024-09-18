@@ -14,10 +14,10 @@ export function App() {
   $root.append(
     Header(),
     Intro(),
+    Portfolio(),
     About(),
     Skills(),
     Resume(),
-    Portfolio(),
     Contact(),
     Footer()
 

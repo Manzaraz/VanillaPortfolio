@@ -78,11 +78,18 @@ export function About() {
           </div>
         </div>
       </div>
-      <button>
-        <i class="fa-solid fa-download"></i>
-        Descargar CV
-        <span class="overlay"></span>
-      </button>
+      <div class="btn-conteiner">
+        <a class="btn link"  href="/app/assets/cvManzaraz2024.pdf" target="_blank" rel="noopener noreferrer">
+          <title>Descargar mi Currículum</title>
+          Descarga mi Curriculum
+          <span class="overlay"></span>
+        </a>
+        <a class="btn link"  href="/app/assets/cvManzaraz2024en.pdf" target="_blank" rel="noopener noreferrer">
+          <title>Download my Resume</title>
+          Download my Resume
+          <span class="overlay"></span>
+        </a>
+      </div>
     </div>
   `
 

@@ -49,7 +49,7 @@ function displayJobs(items) {
             </div>
             <p>"${item.comment.review}"</p>
             <div class="btn-conteiner">
-              <a class="btn" id="link" href="https://www.linkedin.com/in/manzaraz/" target="_blank" rel="noopener noreferrer">
+              <a class="btn link" id="link" href="https://www.linkedin.com/in/manzaraz/" target="_blank" rel="noopener noreferrer">
                 <title>Manzaraz's LinkedIn Profile</title>
                 Ver en LinkedIn
                 <span class="overlay"></span>
