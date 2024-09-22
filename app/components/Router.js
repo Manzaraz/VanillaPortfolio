@@ -22,9 +22,11 @@ export function Router() {
     w = window,
     $root = d.getElementById("root"),
     $main = d.createElement("main");
-  let isHome = true
+
 
   $root.appendChild(Header())
+  $root.appendChild($main)
+  $root.appendChild(Footer())
 
   const homeLink = document.querySelector("#home-link")
   const aboutLink = document.querySelector("#about-link")
@@ -34,6 +36,9 @@ export function Router() {
     $main.innerHTML = null
     if (routes[route]) {
       $main.appendChild(routes[route].content())
+
+      if (route == "home") escribirTexto()
+
       if (route == "about") openModal()
     } else {
       $main.innerHTML = "<h2>Page Not found</h2>"
@@ -48,7 +53,7 @@ export function Router() {
   function handleRoute(event) {
     event.preventDefault()
     const href = event.target.href
-    const page = href.split("#")[1] || "home";
+    const page = href?.split("#")[1] || "home";
     w.history.pushState({}, "", href)
 
     updateContent(page)
@@ -57,6 +62,7 @@ export function Router() {
 
   w.addEventListener('hashchange', () => {
     const newPage = w.location.hash.slice(1) || 'home';
+
     updateContent(newPage);
     updateLinks(newPage);
   });
@@ -69,11 +75,6 @@ export function Router() {
   const initialPage = 'home';
   updateContent(initialPage);
   updateLinks(initialPage);
-
-  $root.appendChild($main)
-  $root.appendChild(Footer())
-
-  escribirTexto()
 
   listener()
 }

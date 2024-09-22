@@ -71,7 +71,6 @@ export function listener() {
   $navBtn.addEventListener("click", () => $nav.classList.toggle("responsive"))
 
   $nav.addEventListener("click", (e) => {
-    console.log(e.target)
     $nav.classList.toggle("responsive");
   })
 
