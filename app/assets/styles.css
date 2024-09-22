@@ -79,6 +79,8 @@ body {
   }
 
   & nav {
+    width: auto;
+
     & li {
       & a {
         font-family: var(--font-roboto);
@@ -356,9 +358,6 @@ body {
     top: 50%;
   }
 }
-
-
-
 
 
 & .btn-conteiner {

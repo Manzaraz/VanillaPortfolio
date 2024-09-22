@@ -18,7 +18,7 @@ export function Header() {
           <ul>
             <li><a id="home-link" class="go" href="/"><title>Projects</title><i class="fa-solid fa-cubes"></i> Projects</a></li>
             <li><a id="about-link" class="go" href="#about"><title>About</title><i class="fa-solid fa-leaf"></i> Sobre Mí</a></li>
-            <li><a a href="mailto:magnusmanz@gmail.com?subject=Vi%20tu%20Portfolio%20y..."><title>Contacto</title><i class="fa-solid fa-comments"></i> Contacto</a></li>
+            <li><a href="mailto:magnusmanz@gmail.com?subject=Vi%20tu%20Portfolio%20y..."><title>Contacto</title><i class="fa-solid fa-comments"></i> Contacto</a></li>
           </ul>
         </nav>
         <div class="nav-responsive" >
