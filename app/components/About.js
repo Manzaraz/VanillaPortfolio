@@ -10,7 +10,7 @@ export function About() {
       <h2>Sobre Mí</h2>
       <p>
         <span>Hola, soy Christian.</span>
-        Soy un apasionado del desarrollo web y docente en DigitalHouse, donde disfruto enseñar tecnologías como HTML, CSS, JavaScript y React. También me encanta introducir a mis alumnos en el mundo de las tecnologías móviles, como PWAs y Swift. Actualmente, tengo un sólido conocimiento en Swift y sus frameworks, lo que me permite explorar diversas arquitecturas y patrones de diseño. Busco un puesto como desarrollador iOS, siempre enfocado en la mejora continua y la colaboración en equipo.
+        Soy un desarrollador apasionado con una sólida base en desarrollo web y una creciente experiencia en el ecosistema Apple. Con 2 años como freelance, he construido soluciones web personalizadas para diversos clientes. Además, he compartido mis conocimientos como profesor de frontend en Digital House, inspirando a la próxima generación de desarrolladores. Actualmente, estoy ampliando mis horizontes hacia el desarrollo iOS, explorando las posibilidades de Swift para crear aplicaciones nativas para iPhone, iPad, Mac, visionOS y tvOS. Mi objetivo es combinar mi experiencia en web con las últimas tecnologías de Apple para ofrecer soluciones innovadoras y de alta calidad.
       </p>
 
       <div class="row">
