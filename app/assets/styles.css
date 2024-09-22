@@ -242,12 +242,12 @@ p {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   margin: 10px;
-
 }
 
 .intro>.bio-content>.scroll-me {
   /* background-color: #222; */
-  padding: 25px;
+  padding: 5px;
+  height: 60px;
 
   i {
     position: relative;
@@ -1368,6 +1368,22 @@ footer {
 }
 
 @media screen and (max-width:700px) {
+  .intro {
+    display: block;
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  .intro .banner-conent {
+    display: block;
+    flex-direction: column;
+    width: fit-content;
+  }
+
+  .intro>.bio-content {
+    width: fit-content;
+  }
+
   .about .row {
     display: block;
     flex-direction: column;

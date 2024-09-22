@@ -135,6 +135,16 @@ export const webProducts = [
 
 export const mobileProducts = [
   {
+    id: 0,
+    name: "Scroll Efects",
+    img: "https://github.com/Manzaraz/ScrollEffect/blob/main/scroll-effects.gif?raw=true",
+    repo: "https://github.com/Manzaraz/ScrollEffect",
+    technologies: [
+      '<i class="fa-brands fa-swift"></i> SwiftUI ',
+      '<i class="fa-brands fa-apple"></i> iOS',
+    ]
+  },
+  {
     id: 1,
     name: "Landmarks Multiplatform App",
     img: "https://github.com/Manzaraz/Landmarks/raw/main/iPhoneLandmarks.gif",
