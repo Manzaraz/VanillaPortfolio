@@ -37,6 +37,24 @@ export function Intro() {
         </a>
       </div>
     </div>
+    <div class="bio-content">
+      <h3>Bienvenido a mi Sitio Web</h3>
+      <h2>Soy Chris un Desarrollador iOS junior con un toque web y pasión por enseñar.</h2>
+      <p>Cuento con un sólido background en desarrollo web y frontend, estoy ampliando mis habilidades para crear experiencias móviles excepcionales. Mi experiencia enseñando me ha proporcionado excelentes habilidades de comunicación y resolución de problemas. Estoy buscando un entorno donde pueda aplicar mis conocimientos y crecer como desarrollador iOS. ¡Contáctame para discutir cómo puedo agregar valor a tu equipo!</p>
+
+      <div class="scroll-me">
+        <span class="scroll-btn">
+          <div >
+            <span class="mouse">
+              <span>
+              </span>
+            </span>
+            <i class="fa-brands fa-apple"></i>
+          </div>
+        </span>
+      </div>
+      
+    </div>
   `
 
 

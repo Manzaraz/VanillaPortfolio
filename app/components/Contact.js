@@ -32,16 +32,16 @@ export function Contact() {
             <em>¡Gracias por visitar mi portfolio! Si deseas ponerte en contacto, no dudes en hacer clic en los botones a continuación.</em>
             <ul>
               <li>
-                  <button class="btn-contact copy-btn" data-aos="flip-up">
+                  <button class="btn-contact copy-btn" name="+5493815091639" data-name="Copiar Celular" data-aos="flip-up">
                     <i class="fa-solid fa-mobile-screen"></i>
                     Copiar Celular
                     <span class="overlay"></span>
                   </button>
               </li>
               <li>
-                  <button class="btn-contact copy-btn email" data-aos="flip-up">
+                  <button class="btn-contact copy-btn email" name="magnusmanz@gmail.com" data-name="Copiar Email" data-aos="flip-up">
                     <i class="fa-regular fa-paste"></i>
-                    Copiar E-mail
+                    Copiar Email
                     <span class="overlay"></span>
                   </button>
               </li>
