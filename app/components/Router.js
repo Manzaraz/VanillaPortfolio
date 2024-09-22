@@ -23,7 +23,6 @@ export function Router() {
     $root = d.getElementById("root"),
     $main = d.createElement("main");
 
-
   $root.appendChild(Header())
   $root.appendChild($main)
   $root.appendChild(Footer())
@@ -43,6 +42,7 @@ export function Router() {
     } else {
       $main.innerHTML = "<h2>Page Not found</h2>"
     }
+    // listener()
   }
 
   function updateLinks(currentPage) {

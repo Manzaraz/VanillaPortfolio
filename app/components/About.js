@@ -17,12 +17,7 @@ export function About() {
         <!-- datos Personales -->
         <div class="col">
           <h3>Datos Personales</h3>
-          <ul>
-            <li>
-              <strong>Cumpleaños</strong>
-              3 de Octubre
-            </li>
-        
+          <ul>        
             <li>
               <strong>Website</strong>
               www.manzaraz.com
