@@ -27,7 +27,7 @@ function mobileComponent(items) {
     const { id, name, img, repo, technologies } = item
 
     html += `
-      <div class="proyectoMobile" id="${id}" data-aos="fade-up">
+      <div class="cardMobile" id="${id}" data-aos="fade-up">
         <h4>${name}</h4>
         <div class="row">
           <div class="col">
@@ -55,7 +55,13 @@ function mobileComponent(items) {
 export function Mobile() {
   const $mobile = document.createElement("article")
 
-  $mobile.innerHTML = mobileComponent(mobileProducts)
 
+  $mobile.innerHTML = `
+    <h3><i class="fa-solid fa-mobile-screen-button"></i> Proyectos Mobile: </h3>
+    <p>Aquí podrás encontrar una selección de algunos de los proyectos más destacados en los que he trabajado recientemente utilizando Swift en el entorno iOS. Cada uno de estos proyectos refleja mi dedicación y habilidad en el desarrollo de aplicaciones móviles. Además, en mi repositorio encontrarás una variedad más amplia de proyectos, donde también verán que he incursionado en el desarrollo para otros dispositivos, incluyendo macOS, iPadOS, VisionOS y tvOS. Los invito a explorarlos y descubrir mi enfoque creativo y técnico.</p>
+    <div class="projects">
+      ${mobileComponent(mobileProducts)}
+    </div>
+  `
   return $mobile
 }

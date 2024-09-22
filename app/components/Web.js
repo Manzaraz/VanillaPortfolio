@@ -24,7 +24,7 @@ function showProjects(items) {
   items.forEach(item => {
     const { id, name, img, link, repo, technologies } = item;
     html += `
-      <div id="${id}" class="proyectoWeb" data-aos="fade-up">
+      <div id="${id}" class="cardWeb" data-aos="fade-up">
         <h4>${name}</h4>
         <div class="col">
           <div class="p" >
@@ -60,7 +60,13 @@ function showProjects(items) {
 export function Web() {
   const $web = document.createElement("article")
 
-  $web.innerHTML = showProjects(webProducts)
+  $web.innerHTML = `
+    <h3><i class="fa-brands fa-safari"></i> Proryectos Web:</h3>
+    <p>En esta sección, presento una pequeña muestra de mis proyectos web, donde he aplicado mis conocimientos en JavaScript, utilizando tecnologías como VanillaJS, ReactJS y Node.js. Cada proyecto ha sido una oportunidad para resolver problemas y crear soluciones interactivas y funcionales. Si deseas ver más de mi trabajo, no dudes en visitar mi repositorio, donde podrás encontrar una variedad de proyectos que demuestran mi versatilidad y pasión por el desarrollo web.</p>
+    <div class="projects">
+      ${showProjects(webProducts)}
+    </div>
+  `
 
   return $web
 }

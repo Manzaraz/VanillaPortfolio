@@ -32,6 +32,36 @@ body {
   scroll-behavior: smooth;
 }
 
+h2 {
+  font-family: var(--font-roboto);
+  font-weight: 300;
+  font-size: 30px;
+  padding: 15px 0;
+  color: var(--color-gold);
+}
+
+h3 {
+  font-family: var(--font-garamond);
+  font-style: oblique;
+  font-weight: 200;
+  font-size: 25px;
+  padding: 10px 5px;
+}
+
+h4 {
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  font-size: 23px;
+  padding: 5px;
+}
+
+p {
+  font-family: var(--font-roboto);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+}
+
 /* Menu */
 .header-container {
   background: var(--color-black);
@@ -164,6 +194,7 @@ body {
     font-family: var(--font-roboto);
     font-weight: normal;
     height: 32px;
+    color: var(--font-color);
 
     #texto {
       font-family: monospace;
@@ -212,27 +243,6 @@ body {
   backdrop-filter: blur(10px);
   margin: 10px;
 
-  h2 {
-    font-family: var(--font-roboto);
-    font-weight: 300;
-    font-size: 25px;
-    padding: 20px 0;
-  }
-
-  h3 {
-    font-family: var(--font-garamond);
-    font-style: oblique;
-    font-weight: 200;
-    font-size: 25px;
-    padding: 0 20px;
-    color: var(--color-gold);
-  }
-
-  p {
-    font-family: var(--font-roboto);
-    font-weight: 400;
-    line-height: 25px;
-  }
 }
 
 .intro>.bio-content>.scroll-me {
@@ -426,9 +436,6 @@ body {
     margin: auto;
 
     & p {
-      font: 18px;
-      line-height: 22px;
-      margin-bottom: 20px;
 
       & span {
         color: var(--color-gold);
@@ -441,13 +448,6 @@ body {
 
       .col {
         width: 50%;
-
-        & h3 {
-          font-style: 28px;
-          font-family: var(--font-garamond);
-          font-weight: 200;
-          margin-bottom: 25px;
-        }
 
         & ul {
           list-style: none;
@@ -538,9 +538,8 @@ body {
 
   & h2 {
     font-family: var(--font-garamond);
-    font-style: 48px;
+    font-style: 40px;
     text-align: center;
-    padding: 20px 0;
   }
 }
 
@@ -556,7 +555,7 @@ body {
 
     & h2 {
       font-family: var(--font-garamond);
-      font-size: 30px;
+      font-size: 40px;
       text-align: center;
       padding: 20px 0;
     }
@@ -692,11 +691,9 @@ body {
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 40px;
     font-family: var(--font-garamond);
     text-align: center;
-    padding: 20px 0;
-
   }
 
   .row {
@@ -708,9 +705,8 @@ body {
       padding: 0 20px;
 
       h3 {
-        font-family: var(--font-garamond);
-        font-size: 28px;
-        margin-bottom: 25px;
+        font-size: 30px;
+        /* margin-bottom: 25px; */
       }
     }
 
@@ -732,10 +728,7 @@ body {
       background-color: var(--color-black2);
       position: relative;
 
-      h4 {
-        font-size: 22px;
-        margin-bottom: 10px;
-      }
+
 
       .casa {
         color: var(--color-gold);
@@ -900,139 +893,20 @@ body {
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 40px;
     font-family: var(--font-garamond);
     text-align: center;
-    padding: 20px 0;
-  }
-
-  & .btn-conteiner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    margin-bottom: 15px;
-
-    & #mobile {
-      background-color: var(--color-red);
-
-
-      &:hover {
-        background-color: var(--color-gold);
-        color: var(--color-black2);
-      }
-    }
-
-    & #web {
-      background-color: var(--color-blue);
-
-      &:hover {
-        background-color: var(--color-gold);
-        color: var(--color-black2);
-      }
-    }
-
-    & button {
-      cursor: pointer;
-      border: 2px solid var(--font-color);
-      border-radius: 20px;
-      width: fit-content;
-      display: block;
-      margin: 15px auto;
-      padding: 10px 22px;
-      font-size: 16px;
-      color: var(--font-color);
-      position: relative;
-      z-index: 10;
-      transition: .3s;
-    }
-  }
-
-  .choose {
-    .card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .card__top {
-      width: 580px;
-      height: 340px;
-      border: 10px solid #101010;
-      border-radius: 10px 10px 0 0;
-      overflow: hidden;
-      align-items: center;
-    }
-
-    .card__browser {
-      height: 5px;
-      top: -10px;
-      background-color: #101010;
-      position: sticky;
-      z-index: 2;
-    }
-
-    .card__imgCnt {
-      background: #000;
-    }
-
-    .card__caption {
-      position: relative;
-      font-size: 7.5px;
-      font-weight: 200;
-      top: -18px;
-      text-align: center;
-      color: var(--font-color);
-    }
-
-    .card__img {
-      width: 100%;
-      height: auto;
-      background-color: #101010;
-    }
-
-    .card__box {
-      width: 630px;
-      height: 4px;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: #b0b5b8;
-      background-image: linear-gradient(to right, #999, #b0b5b8, #d9d9d9);
-      border-radius: 1px 1px 0 0;
-    }
-
-    .card__open {
-      width: 100px;
-      height: 12px;
-      border-radius: 0 0 10px 10px;
-      background-color: #b7b7b7;
-      box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.5);
-    }
-
-    .card__down {
-      width: 630px;
-      height: 5px;
-      margin: 0;
-      background-color: #6f7174;
-      background-image: linear-gradient(to bottom, #6f7174, #2b2b2b);
-      border-radius: 0 0 10px 10px;
-      overflow: hidden;
-      border-radius: 0 0 80px 80Array/0Array 0 12px 12px;
-      box-shadow: 0px 2px 3px 1px rgba(0, 0, 0, 0.5);
-    }
   }
 
   .gallery {
 
-    article {
+    .projects {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
 
       /* Portfolio Web */
-      .proyectoWeb {
+      .cardWeb {
         position: relative;
         background-color: var(--color-black);
         max-width: 340px;
@@ -1042,7 +916,6 @@ body {
         margin: 20px;
 
         h4 {
-          font-size: 18px;
           text-align: center;
         }
 
@@ -1177,7 +1050,7 @@ body {
       }
 
       /* Proyecto Mobile */
-      .proyectoMobile {
+      .cardMobile {
         position: relative;
         background-color: var(--color-black);
         max-width: 390px;
@@ -1187,7 +1060,6 @@ body {
         margin: 20px;
 
         h4 {
-          font-size: 18px;
           text-align: center;
         }
 
@@ -1309,10 +1181,9 @@ body {
     margin: auto;
 
     h2 {
-      font-size: 48px;
+      font-size: 40px;
       font-family: var(--font-garamond);
       text-align: center;
-      padding: 20px 0;
     }
 
     .row {

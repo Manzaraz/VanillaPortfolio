@@ -42,7 +42,7 @@ export function Router() {
     } else {
       $main.innerHTML = "<h2>Page Not found</h2>"
     }
-    // listener()
+    listener()
   }
 
   function updateLinks(currentPage) {
