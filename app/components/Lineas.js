@@ -1,7 +1,7 @@
 const lineas = [
   "Desarrollador iOS",
   "Desarrollador Frontend",
-  "Profesor de Frontend",
+  "Profesor de Frontend en DigitalHouse",
   "Desarrollador Full-Stack en JavaScript",
 ]
 
