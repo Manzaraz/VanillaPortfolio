@@ -238,7 +238,7 @@ p {
 .intro>.bio-content {
   width: 65%;
   height: auto;
-  padding: 10px 10px 40px 10px;
+  padding: 10px 10px 10px 10px;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   margin: 10px;
@@ -1370,7 +1370,7 @@ footer {
 @media screen and (max-width:700px) {
   .intro {
     /* display: block; */
-    display: inline-flex;
+    display: inline-block;
     flex-direction: column;
     width: fit-content;
   }
@@ -1460,6 +1460,10 @@ footer {
 
   .resume .row .derecha {
     margin-left: 20px;
+  }
+
+  .portfolio {
+    display: block;
   }
 
   .portfolio .gallery {
