@@ -14,7 +14,7 @@ export function Intro() {
       </div>
       <h1>
         Christian Manzaraz
-        <title>Cristian Manzaraz, "Desarrollador iOS", "Desarrollador Frontend", "Profesor de Frontend en DigitalHouse", "Desarrollador Full-Stack en JavaScript",</title>
+        <title>Cristian Manzaraz, "Desarrollador iOS", "Desarrollador Frontend", "Profesor de Frontend en DigitalHouse", "Desarrollador Full-Stack en JavaScript", Xcode, Swift, SwiftUI UIKit, Javascript, React, Visual Studio Code</title>
       </h1>
       <h2><span id="texto"></span></h2>
       <div class="s-media">
