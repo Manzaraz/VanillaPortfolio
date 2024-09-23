@@ -12,7 +12,10 @@ export function Intro() {
       <div class="img-container" >
         <img src="app/assets/hero.png" alt="Christian">
       </div>
-      <h1>Christian Manzaraz</h1>
+      <h1>
+        Christian Manzaraz
+        <title>Cristian Manzaraz, "Desarrollador iOS", "Desarrollador Frontend", "Profesor de Frontend en DigitalHouse", "Desarrollador Full-Stack en JavaScript",</title>
+      </h1>
       <h2><span id="texto"></span></h2>
       <div class="s-media">
         <a href="https://github.com/Manzaraz" target="_blank" rel="noopener noreferrer">
