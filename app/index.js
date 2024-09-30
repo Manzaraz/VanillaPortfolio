@@ -3,4 +3,4 @@ import { listener } from "./helpers/listeners.js";
 
 AOS.init();
 document.addEventListener("DOMContentLoaded", App)
-document.addEventListener("DOMContentLoaded", listener)
+// document.addEventListener("DOMContentLoaded", listener)
