@@ -25,7 +25,7 @@ export function Router() {
 
   $root.appendChild(Header())
   $root.appendChild($main)
-  $root.appendChild(Footer())
+  // $root.appendChild(Footer())
 
   const homeLink = document.querySelector("#home-link")
   const aboutLink = document.querySelector("#about-link")
@@ -36,13 +36,16 @@ export function Router() {
     if (routes[route]) {
       $main.appendChild(routes[route].content())
 
-      if (route == "home") escribirTexto()
+      if (route == "home") {
+        escribirTexto()
+        // listener()
+      }
 
       if (route == "about") openModal()
     } else {
       $main.innerHTML = "<h2>Page Not found</h2>"
     }
-    // listener()
+    listener()
   }
 
   function updateLinks(currentPage) {

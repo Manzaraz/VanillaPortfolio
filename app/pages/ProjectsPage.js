@@ -1,4 +1,3 @@
-import { Header } from "../components/Header.js";
 import { Intro } from "../components/Intro.js";
 import { Portfolio } from "../components/Portfolio.js";
 import { Contact } from "../components/Contact.js";
@@ -13,6 +12,7 @@ export function ProjectsPage() {
     Intro(),
     Portfolio(),
     Contact(),
+    Footer()
   )
 
   return $html

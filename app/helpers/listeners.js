@@ -76,12 +76,11 @@ export function listener() {
 
   /* Scroll Effects */
   /* On Footer */
-  const $aFooter = document.querySelector("footer a")
+  const $aFooter = document.querySelector(".up")
   $aFooter.addEventListener("click", (e) => {
     e.preventDefault()
-    let target = e.currentTarget.getAttribute("href")
 
-    document.querySelector(target).scrollIntoView({
+    document.body.scrollIntoView({
       behavior: 'smooth'
     });
   })
