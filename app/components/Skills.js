@@ -1,4 +1,4 @@
-const languages = ["JavaScript", "Swift"]
+const languages = ["JavaScript", "Swift", "Objective-C"]
 const frameworksJs = [
   { item: "HTML", icon: "fa-html5" },
   { item: "CSS", icon: "" },
@@ -28,6 +28,10 @@ export function Skills() {
         <div class="language" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="150">
           <i class="fa-brands fa-swift"></i>
           Swift
+        </div>
+        <div class="language" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="150">
+          <i class="fa-regular fa-copyright"></i>
+          Objective-C
         </div>
         <div class="language" data-aos="flip-left" data-aos-easing="ease-in-back" data-aos-delay="300">
           <i class="fa-brands fa-js"></i>

@@ -6,7 +6,7 @@ export const background = [
         position: "Desarrolo de Aplicaciones Móviles ",
         institution: "Autodidacta",
         time: "Fines 2023 a la actualidad",
-        info: "Desde mis inicios en programación, simempre tuve curiosidad por el funcionamiento de dispositivos móviles, lo que me llevó a investigar en desarrollo móvil con Swift. Estudié la documentación oficial y libros de Apple, comenzando con UIKit y luego explorando SwiftUI para crear interfaces atractivas. Aprendí a estructurar datos con CoreData y SwiftData, utilizando patrones como Delegate y Observable. Me apasiona esta tecnología y disfruto desarrollando proyectos que puedes ver en mi GitHub.",
+        info: "Desde mis inicios en programación, simempre tuve curiosidad por el funcionamiento de dispositivos móviles, lo que me llevó a investigar en desarrollo móvil primerametne con el lenguaje Swift y luego con Objective-C (Lo que me ayudó mucho con el entendimiento de las bases de Swift). Estudié la documentación oficial y libros de Apple, comenzando con UIKit y luego explorando SwiftUI para crear interfaces atractivas. Aprendí a estructurar datos con CoreData y SwiftData, utilizando patrones como Delegate y Observable. Me apasiona esta tecnología y disfruto desarrollando proyectos que puedes ver en mi GitHub.",
       },
       {
         position: "Fullstack Web Developer ",

@@ -58,7 +58,7 @@ export function Mobile() {
 
   $mobile.innerHTML = `
     <h3><i class="fa-solid fa-mobile-screen-button"></i> Proyectos Mobile: </h3>
-    <p>Aquí podrás encontrar una selección de algunos de los proyectos más destacados en los que he trabajado recientemente utilizando Swift en el entorno iOS. Cada uno de estos proyectos refleja mi dedicación y habilidad en el desarrollo de aplicaciones móviles. Además, en mi repositorio encontrarás una variedad más amplia de proyectos, donde también verán que he incursionado en el desarrollo para otros dispositivos, incluyendo macOS, iPadOS, VisionOS y tvOS. Los invito a explorarlos y descubrir mi enfoque creativo y técnico.</p>
+    <p>Aquí podrás encontrar una selección de algunos de los proyectos más destacados en los que he trabajado recientemente utilizando Swift y Objective-C en el entorno iOS. Cada uno de estos proyectos refleja mi dedicación y habilidad en el desarrollo de aplicaciones móviles. Además, en mi repositorio encontrarás una variedad más amplia de proyectos, donde también verán que he incursionado en el desarrollo para otros dispositivos, incluyendo macOS, iPadOS, VisionOS y tvOS. Los invito a explorarlos y descubrir mi enfoque creativo y técnico.</p>
     <div class="projects">
       ${mobileComponent(mobileProducts)}
     </div>

@@ -16,7 +16,5 @@ export function AboutPage() {
     Footer()
   )
 
-
-
   return $html
 }
